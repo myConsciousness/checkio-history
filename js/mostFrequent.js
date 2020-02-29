@@ -21,7 +21,7 @@ const mostFrequent = (data) => {
     // returns the most frequenly occuring string in the given array
     // your code here
 
-    return max(getFrequency(data));
+    return getMaxKey(getFrequency(data));
 }
 
 const getFrequency = (data) => {
@@ -39,7 +39,7 @@ const getFrequency = (data) => {
     return frequency;
 }
 
-const max = (dict) => {
+const getMaxKey = (dict) => {
     let maxKey = '';
 
     for (let key in dict) {
