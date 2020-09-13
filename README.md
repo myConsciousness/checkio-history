@@ -1,2 +1,3 @@
-# CheckIO
- Contents learned at CheckIO.
+# CheckIO History
+
+Contents learned at CheckIO.
