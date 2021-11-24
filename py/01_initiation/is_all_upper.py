@@ -11,7 +11,14 @@ Output: a boolean.
 
 def is_all_upper(text):
     # your code here
-    return text.isupper() or not text.strip()
+    for word in text.strip():
+        if (word == ' '):
+            continue
+
+        if not word.isdigit() and word.islower():
+            return False
+
+    return True
 
 
 if __name__ == '__main__':
